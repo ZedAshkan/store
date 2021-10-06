@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i src/style.css -o public/style.css -w"
+    "build-css": "tailwindcss -i src/style.css -o public/style.css -w",
+    "serve": "live-server --ignorePattern='/*.css'"
   },
   "author": "",
   "license": "ISC",

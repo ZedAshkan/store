@@ -829,8 +829,16 @@ body{
   width: 75%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .flex-auto {
   flex: 1 1 auto;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .flex-wrap {
@@ -843,6 +851,10 @@ body{
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .overflow-hidden {
@@ -870,6 +882,10 @@ body{
 .bg-red-600 {
   --tw-bg-opacity: 1;
   background-color: rgba(220, 38, 38, var(--tw-bg-opacity));
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .py-1 {
@@ -978,4 +994,10 @@ body{
 .selection\:text-white::selection {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:w-1\/4 {
+    width: 25%;
+  }
 }
